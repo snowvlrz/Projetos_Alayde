@@ -1,0 +1,6 @@
+print("Olá usuário!") # Imprime no terminal o texto digitado
+letra = input("Digite uma letra: ").lower() # cria uma variável para que o usuário digite um texto e transforma tudo em letra minúscula
+if letra in "aeiou": # se a letra escolhida estiver entre a, e, i ou u...
+    print("Esta letra é uma vogal.") # Imprime no terminal o texto digitado com o resultado
+else: # senão...
+    print("Esta letra é uma consoante.") # Imprime no terminal o texto digitado com o resultado
